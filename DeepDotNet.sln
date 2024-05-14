@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepDIveLINQ", "DeepDIveLINQ\DeepDIveLINQ.csproj", "{48044304-233A-4E7B-AB31-6C61C0984F49}"
+# 
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepDiveLINQ", "DeepDiveLINQ\DeepDiveLINQ.csproj", "{48044304-233A-4E7B-AB31-6C61C0984F49}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwaitFromScratch", "AsyncAwaitFromScratch\AsyncAwaitFromScratch.csproj", "{EBAA3927-4BE3-4412-B291-2201158C2001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepDiveSpan", "DeepDiveSpan\DeepDiveSpan.csproj", "{8454BFF7-BA4B-4952-A6DA-F70888E8F655}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,12 @@ Global
 		{EBAA3927-4BE3-4412-B291-2201158C2001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBAA3927-4BE3-4412-B291-2201158C2001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBAA3927-4BE3-4412-B291-2201158C2001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8454BFF7-BA4B-4952-A6DA-F70888E8F655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8454BFF7-BA4B-4952-A6DA-F70888E8F655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8454BFF7-BA4B-4952-A6DA-F70888E8F655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8454BFF7-BA4B-4952-A6DA-F70888E8F655}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

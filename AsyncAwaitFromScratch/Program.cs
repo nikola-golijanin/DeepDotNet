@@ -57,18 +57,18 @@ using System.Runtime.ExceptionServices;
 #region MyTask.Run() in Action
 //Uncomment this section to se how task are processed in asyncronous way
 
-// AsyncLocal<int> myValue = new();
-// List<MyTask> tasks = new();
-// for (int i = 0; i < 100; i++)
-// {
-//     myValue.Value = i;
-//     tasks.Add(MyTask.Run(delegate
-//     {
-//         Console.WriteLine(myValue.Value);
-//         Thread.Sleep(1000);
-//     }));
-// }
-// MyTask.WhenAll(tasks).Wait();
+AsyncLocal<int> myValue = new();
+List<MyTask> tasks = new();
+for (int i = 0; i < 100; i++)
+{
+    myValue.Value = i;
+    tasks.Add(MyTask.Run(delegate
+    {
+        Console.WriteLine(myValue.Value);
+        Thread.Sleep(1000);
+    }));
+}
+MyTask.WhenAll(tasks).Wait();
 #endregion
 
 #region MyTask and MyThreadPool implementation
